@@ -53,7 +53,7 @@ namespace methodExercise
                 var a2 = int.Parse(Console.ReadLine());
                 Console.WriteLine("number 3");
                 var a3 = int.Parse(Console.ReadLine());
-                var addMult3 = moreSum3(a1, a2, a3);
+                var addMult3 = MoreSum3(a1, a2, a3);
                 Console.WriteLine($"Viola: story {theStrory}. Sum: {add2numbers}. Multiplied: {multiply2numbers}. Another Sum {addMult3}");
             }
             if (addMult == 5)
@@ -68,7 +68,7 @@ namespace methodExercise
                 var a4 = int.Parse(Console.ReadLine());
                 Console.WriteLine("number 5");
                 var a5 = int.Parse(Console.ReadLine());
-                var addMult5 = moreSum5(a1, a2, a3, a4, a5);
+                var addMult5 = MoreSum5(a1, a2, a3, a4, a5);
                 Console.WriteLine($"Viola: story {theStrory}. Sum: {add2numbers}. Multiplied: {multiply2numbers}. Another Sum {addMult5}");
             }
 
@@ -90,17 +90,17 @@ namespace methodExercise
             return num1 + num2;
         }
 
-        public static int multiply(int num1, int num2)
+        public static int Multiply(int num1, int num2)
         {
 
             return num1*num2;
         }
-        public static int moreSum3(int num1, int num2, int num3)
+        public static int MoreSum3(int num1, int num2, int num3)
         {
             
             return num1 + num2+num3;
         }
-        public static int moreSum5(int num1, int num2, int num3, int num4, int num5)
+        public static int MoreSum5(int num1, int num2, int num3, int num4, int num5)
         {
 
             return num1 + num2 + num3+num4+num5;
